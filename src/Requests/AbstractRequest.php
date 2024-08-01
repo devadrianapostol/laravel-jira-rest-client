@@ -73,6 +73,7 @@ abstract class AbstractRequest
             'headers'  => [
                 'Accept'       => 'application/json',
                 'Content-Type' => 'application/json',
+                'X-Atlassian-Token' => 'no-check'
             ] ,
         ];
 
